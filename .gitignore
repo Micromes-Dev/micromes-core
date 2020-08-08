@@ -1,0 +1,7 @@
+build/
+gradlew
+gradle.bat
+gradle/
+config.json
+.idea/
+.gradle/
