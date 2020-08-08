@@ -1,4 +1,4 @@
-package de.mtorials.micromes
+package net.micromes.core
 
 import org.http4k.core.HttpHandler
 import org.http4k.core.Method

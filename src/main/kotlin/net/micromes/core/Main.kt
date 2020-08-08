@@ -1,4 +1,4 @@
-package de.mtorials.micromes
+package net.micromes.core
 
 import org.http4k.core.Method.*
 import org.http4k.routing.bind
@@ -17,7 +17,7 @@ fun main() {
                 GET at "/state" to dummyHandler,
                 GET at "/state/{eventType}/{stateKey}" to dummyHandler,
                 GET at "/state" to dummyHandler,
-                GET at "/members" to  dummyHandler,
+                GET at "/members" to dummyHandler,
                 GET at "/joined_members" to dummyHandler,
                 GET at "/messages" to dummyHandler
             )
